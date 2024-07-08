@@ -13,7 +13,7 @@ const Nav = () => {
   categoryFilter = [...new Set(categoryFilter)];
 
   return (
-    <nav className=" min-h-screen w-[15%] p-5 bg-zinc-500 flex flex-col items-center justify-start">
+    <nav className=" min-h-screen w-[15%] p-5 bg-zinc-5M00 flex flex-col items-center justify-start">
       <Link className="px-5 py-2 rounded-lg border text-xl border-zinc-400 hover:bg-sky-400 hover:text-white hover:font-bold transition-all " to="/cart">
         C A R T
       </Link>
